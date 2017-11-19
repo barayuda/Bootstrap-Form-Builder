@@ -1,14 +1,18 @@
 -
   title  : Multiple Radios
   fields : 
-    name:
-      label  : Group Name
+    id:
+      label  : ID / Name
       type   : input
-      value  : radios
+      value  : multipleradios
     label:
       label  : Label Text
       type   : input
       value  : Multiple Radios
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
     radios:
       label  : Radios
       type   : textarea-split
@@ -16,14 +20,18 @@
 -
   title  : Multiple Radios Inline
   fields : 
-    name:
-      label  : Group Name
+    id:
+      label  : ID / Name
       type   : input
-      value  : radios
+      value  : multipleradiosinline
     label:
       label  : Label Text
       type   : input
       value  : Inline Radios
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
     radios:
       label  : Radios
       type   : textarea-split
@@ -31,14 +39,18 @@
 -
   title  : Multiple Checkboxes
   fields : 
-    name:
-      label  : Group Name
+    id:
+      label  : ID / Name
       type   : input
-      value  : checkboxes
+      value  : multiplecheckboxes
     label:
       label  : Label Text
       type   : input
       value  : Multiple Checkboxes
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
     checkboxes:
       label  : Checkboxes
       type   : textarea-split
@@ -46,14 +58,18 @@
 -
   title  : Multiple Checkboxes Inline
   fields : 
-    name:
-      label  : Group Name
+    id:
+      label  : ID / Name
       type   : input
-      value  : checkboxes
+      value  : multiplecheckboxesinline
     label:
       label  : Label Text
       type   : input
       value  : Inline Checkboxes
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
     checkboxes:
       label  : Checkboxes
       type   : textarea-split

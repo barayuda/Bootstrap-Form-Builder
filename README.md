@@ -1,16 +1,16 @@
-#Bootstrap Form Builder
+# Bootstrap Form Builder
 
-##What's this?
+## Warning: Currently using Bootstrap `v. 2.3.1` :dolphin:  (Not Bootstrap 3 ready.)
+
+## What's this?
 
 A Drag-and-drop form builder for [twitter bootstrap](http://twitter.github.com/bootstrap/). 
 
-Currently using `v. 2.3.1` :dolphin:
-
-##Where can I see it in action?
+## Where can I see it in action?
 
 It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Builder/).
 
-###Notes
+### Notes
 
 * For development & debugging change the data-main for the require script tag in `index.html` 
   to point at `assets/js/main.js`. (Look just before the closing `<body>` tag!)
@@ -22,7 +22,7 @@ It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Buil
 
 ### Adding new form elements
 
-* In the [js/data/yaml folder](https://github.com/minikomi/Bootstrap-Form-Builder/tree/gh-pages/assets/js/data/yaml) are yaml files, each of which corresponds to a tab in the form builder.
+* In the [js/data/ folder](https://github.com/minikomi/Bootstrap-Form-Builder/tree/gh-pages/assets/js/data/) are yaml files, each of which corresponds to a tab in the form builder.
 * If you just want to add a new element you need to:
   - describe it in one of these files
   - parse the yaml to json using parse.rb in the same folder
